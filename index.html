@@ -8,27 +8,60 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="app">
-    <header>
-      <h1>Human Rights Quiz</h1>
-      <div class="stats">
-        <span id="likes">❤️ Likes: 0</span>
-        <span id="followers">👥 Followers: 0</span>
+  <div class="bubbles-bg">
+    <div class="bubble bubble1"></div>
+    <div class="bubble bubble2"></div>
+    <div class="bubble bubble3"></div>
+    <div class="bubble bubble4"></div>
+    <div class="bubble bubble5"></div>
+    <div class="bubble bubble6"></div>
+  </div>
+  <div class="app split-layout">
+    <div class="quiz-side">
+      <header>
+        <h1>Human Rights Quiz</h1>
+      </header>
+      <main>
+        <div id="quiz-box">
+          <div id="progress"></div>
+          <h2 id="question">Loading…</h2>
+          <div id="choices"></div>
+        </div>
+      </main>
+    </div>
+    <div class="phone-side">
+      <div class="phone-mock">
+        <div class="phone-header">
+          <div class="pfp-img">
+            <!-- fallback SVG avatar if pfp.jpg is missing -->
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="32" fill="#e0e7ff"/>
+              <text x="50%" y="54%" text-anchor="middle" font-size="32" dy=".3em">🧑</text>
+            </svg>
+          </div>
+          <div class="phone-meta">
+            <div class="phone-name">Human Rights <span class="verified">✔️</span></div>
+            <div class="phone-stats">
+              <span>212 Posts</span>
+              <span id="followers">14.2K Followers</span>
+              <span>88 Following</span>
+            </div>
+            <div class="phone-bio">
+              <span>Striving For Human Rights Everywhere</span>
+            </div>
+          </div>
+        </div>
+        <div class="stats phone-ui">
+          <span id="likes">❤️ Likes: 0</span>
+        </div>
+        <div id="comments-box">
+          <h3>Social Feed</h3>
+          <ul id="comments"></ul>
+        </div>
       </div>
-    </header>
-
-    <main>
-      <div id="quiz-box">
-        <div id="progress"></div>
-        <h2 id="question">Loading…</h2>
-        <div id="choices"></div>
-      </div>
-
-      <div id="comments-box">
-        <h3>Social Feed</h3>
-        <ul id="comments"></ul>
-      </div>
-    </main>
+      <audio id="sound-correct" src="correct.mp3"></audio>
+      <audio id="sound-wrong" src="wrong.mp3"></audio>
+    </div>
   </div>
 </body>
 </html>
