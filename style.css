@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats span {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+#quiz-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+#progress {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice-btn {
+  background: #e5e7eb;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.choice-btn:hover {
+  background: #d1d5db;
+}
+
+.choice-btn.correct {
+  background: #bbf7d0;
+}
+
+.choice-btn.wrong {
+  background: #fecaca;
+}
+
+#comments-box {
+  margin-top: 25px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+#comments {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#comments li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
