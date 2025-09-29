@@ -1,0 +1,60 @@
+// 📄 questions.js
+QUESTIONS = [
+  // --- Compound 1 (12) ---
+  {q:"What year was the Universal Declaration of Human Rights adopted?",choices:["1948","1939","1960"],a:0},
+  {q:"Which organization adopted the Universal Declaration of Human Rights?",choices:["UN","EU","NATO"],a:0},
+  {q:"What is discrimination?",choices:["Unfair treatment","Fairness","Helping"],a:0},
+  {q:"The right to life means…",choices:["Protection from unlawful killing","Right to drive","Free travel"],a:0},
+  {q:"Freedom of expression allows you to…",choices:["Speak openly","Own a car","Ignore the law"],a:0},
+  {q:"What is slavery?",choices:["Owning/control of people","Having a job","Paying taxes"],a:0},
+  {q:"Everyone has the right to seek…",choices:["Asylum","Money","Fame"],a:0},
+  {q:"Children have the right to…",choices:["Education","Driving","Owning land"],a:0},
+  {q:"Torture is…",choices:["Forbidden","Allowed in emergencies","A kind of sport"],a:0},
+  {q:"Which right protects your beliefs?",choices:["Freedom of religion","Property rights","Right to vote"],a:0},
+  {q:"All people are…",choices:["Born free and equal","Born rich","Born poor"],a:0},
+  {q:"Which right protects your privacy?",choices:["Right to privacy","Right to travel","Right to vote"],a:0},
+
+  // --- Compound 2 (13) ---
+  {q:"Voting is part of which right?",choices:["Democracy/participation","Education","Health"],a:0},
+  {q:"What does 'refugee' mean?",choices:["Person fleeing danger","Tourist","Immigrant worker"],a:0},
+  {q:"Forced marriage violates…",choices:["Freedom of choice","Right to education","Right to work"],a:0},
+  {q:"Which right ensures fair trials?",choices:["Right to due process","Right to property","Right to speech"],a:0},
+  {q:"Freedom of assembly means…",choices:["Peaceful protest","Camping","Having parties"],a:0},
+  {q:"Child labor violates…",choices:["Children’s rights","Parents’ rights","Trade law"],a:0},
+  {q:"Which right protects from discrimination?",choices:["Equality","Right to vote","Free speech"],a:0},
+  {q:"Slavery today is…",choices:["Still illegal everywhere","Legal in some places","Encouraged"],a:0},
+  {q:"Freedom of movement allows…",choices:["Travel within country","Always free flights","No passports"],a:0},
+  {q:"Which right gives access to doctors?",choices:["Right to health","Right to vote","Right to asylum"],a:0},
+  {q:"Freedom of thought covers…",choices:["Beliefs and opinions","Only politics","Only religion"],a:0},
+  {q:"The right to property means…",choices:["Own things","Own people","Own the sky"],a:0},
+  {q:"Which right protects learning?",choices:["Right to education","Right to work","Right to culture"],a:0},
+
+  // --- Compound 3 (12) ---
+  {q:"Right to work means…",choices:["Choose employment","Never work","Be unemployed"],a:0},
+  {q:"Which right protects you from being unfairly fired?",choices:["Labor rights","Voting rights","Freedom of speech"],a:0},
+  {q:"Which right gives sick leave?",choices:["Work rights","Travel rights","Property"],a:0},
+  {q:"What is human trafficking?",choices:["Illegal trade in people","Moving boxes","Legal migration"],a:0},
+  {q:"Marriage should be entered…",choices:["With free consent","By force","By government"],a:0},
+  {q:"Which right ensures leisure?",choices:["Rest and leisure","Right to asylum","Right to trial"],a:0},
+  {q:"Which right gives access to information?",choices:["Freedom of expression","Right to privacy","Right to asylum"],a:0},
+  {q:"Right to culture means…",choices:["Take part in cultural life","Always free art","No TV"],a:0},
+  {q:"Right to nationality protects…",choices:["Having a country","Having property","Having friends"],a:0},
+  {q:"What protects people with disabilities?",choices:["Right to equality","Right to health","Freedom of travel"],a:0},
+  {q:"Human rights are…",choices:["For everyone","Only adults","Only citizens"],a:0},
+  {q:"No one shall be held in…",choices:["Arbitrary detention","School","Family"],a:0},
+
+  // --- Compound 4 (13) ---
+  {q:"Which right prevents unfair police action?",choices:["Right to due process","Right to education","Right to health"],a:0},
+  {q:"The right to fair wages means…",choices:["Paid fairly for work","Free money","Extra holidays"],a:0},
+  {q:"Right to participate in government is…",choices:["Right to democracy","Right to property","Right to health"],a:0},
+  {q:"What protects minorities?",choices:["Right to equality","Property law","Traffic law"],a:0},
+  {q:"Which right ensures safety in war?",choices:["Humanitarian law","Travel rights","Property rights"],a:0},
+  {q:"What protects against hate speech?",choices:["Non-discrimination","Free trade","Free parking"],a:0},
+  {q:"The right to shelter is part of…",choices:["Right to adequate standard of living","Voting","Work"],a:0},
+  {q:"The right to food means…",choices:["Access to sufficient food","Always free food","Eat in restaurants"],a:0},
+  {q:"Everyone has the right to…",choices:["Rest and leisure","Only work","Only wealth"],a:0},
+  {q:"No punishment without…",choices:["Law","Luck","Opinion"],a:0},
+  {q:"Right to family life protects…",choices:["Living with loved ones","Owning land","Owning pets"],a:0},
+  {q:"Everyone has duties to…",choices:["The community","Themselves only","The army"],a:0},
+  {q:"Which right protects free press?",choices:["Freedom of expression","Property rights","Right to culture"],a:0}
+];
