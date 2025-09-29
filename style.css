@@ -219,15 +219,6 @@ body {
   animation: bubbleIn 0.7s forwards;
   position: relative;
   background: #e0e7ff;
-  border-radius: 18px 18px 18px 6px;
-  padding: 10px 18px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  font-size: 1.05em;
-  clear: both;
-  float: right;
-  margin-left: 20%;
-  margin-right: 0;
-}
 
 #comments li.negative {
   background: #fecaca;
